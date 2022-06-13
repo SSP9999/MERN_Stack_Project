@@ -1,0 +1,62 @@
+.homepage{ 
+    .header{
+        display: flex;
+        background-color: #212121;
+        color: rgb(253, 251, 249);
+        h1{
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-left: 4rem;
+            
+        }
+        .buttons{
+            margin-top: 1rem;
+            margin-left: 55rem;
+            .signup,.signin{
+                font-size: 1.1rem;
+                padding: 0.5rem 1.5rem;
+                border-radius: 1rem;
+                margin-right: 1rem;
+                border: none;
+                color: #fff;
+                transition: 1s;
+                background-color: transparent;
+                cursor: pointer;
+            }
+            .signin:hover,.signup:hover{
+                text-decoration: underline;
+                text-decoration-color: blue;
+                transition: 0.5s;
+            }
+    
+        }
+    }
+    
+    .maincontent{
+        text-align: center;
+        padding: 8rem;
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        .buttons{
+            .signup,.signin{
+                font-size: 1.5rem;
+                padding: 0.5rem;
+                border-radius: 1rem;
+                margin-right: 1rem;
+                border: none;
+                background-color: transparent;
+               cursor: pointer;
+            }
+            .signup:hover,.signin:hover{
+                text-decoration: underline;
+                text-decoration-color: blue;
+            }
+        }
+    }
+
+}

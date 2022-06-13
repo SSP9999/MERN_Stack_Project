@@ -1,0 +1,73 @@
+body{
+    
+  height: fit-content;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  background-color: #212121;
+  color: rgb(253, 251, 249);
+  h1{
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-left: 4rem;
+      
+  }
+  .buttons{
+      margin-top: 1rem;
+      margin-left: 55rem;
+      .signup,.signin{
+          font-size: 1.1rem;
+          padding: 0.5rem 1.5rem;
+          border-radius: 1rem;
+          margin-right: 1rem;
+          border: none;
+          color: #fff;
+          transition: 1s;
+          background-color: transparent;
+
+      }
+      .signin:hover,.signup:hover{
+          text-decoration: underline;
+          text-decoration-color: blue;
+          transition: 0.5s;
+      }
+
+  }
+}
+.signin-data{
+  width: 90%;
+  height: fit-content;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+.signin-heading{
+  font-size: 3rem;
+  font-weight: 600;
+  color: #1DA1F2;
+  margin-left: 4rem;
+}
+.signin-account{
+  font-size: 2rem;
+  margin-left: 4rem;
+
+}
+input{
+  margin-left: 4rem;
+  margin-top: 1rem;
+  width: 70rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  border: 1px solid;
+  padding: 5px 15px;
+}
+.login{
+  width: fit-content;
+  color: white;
+  background-color: #1DA1F2;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}

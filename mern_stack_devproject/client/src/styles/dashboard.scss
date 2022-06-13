@@ -1,0 +1,27 @@
+.button{
+    border: none;
+    color: white;
+    background-color: #1DA1F2;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem 1rem;
+    margin: 2rem 3rem 0rem 0rem ;
+    width: fit-content;
+    position: fixed;
+}
+ul{
+        display: grid;
+        grid-template-columns: repeat(2,0.3fr);
+        justify-content: center;
+
+    li{
+        list-style: none;
+        font-size: 1.5rem;  
+        border: 2px solid;
+        width: 20rem;
+        height: 6rem;
+        text-align: center;       
+        line-height: 2.5rem;
+    }
+
+}
